@@ -1,0 +1,4 @@
+*.jsi
+package-lock.json
+.history
+node_modules
