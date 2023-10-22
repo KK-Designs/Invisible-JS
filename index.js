@@ -39,8 +39,3 @@ if (process.argv.includes('--encode')) {
 if (process.argv.includes('--decode')) {
 	decode(process.argv[process.argv.findIndex(arg => arg === '--decode') + 1]);
 }
-
-/* const encoded = jsf.replaceAll('!', invisibleMap['!']).replaceAll('(', invisibleMap['(']).replaceAll(')', invisibleMap[')']).replaceAll('+', invisibleMap['+']).replaceAll('[', invisibleMap['[']).replaceAll(']', invisibleMap[']']);
-const decoded = invisibleMap.ke;
-console.log('Encoded:', encoded);
-console.log('Decoded:', decoded);*/
